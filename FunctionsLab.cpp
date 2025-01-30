@@ -45,15 +45,11 @@ void replaceVariable(int array[], int target, int start, int end) {
 //write a function called printArray to print out the elements of the given array
 //output: nothing
 //input: the array of integers and its size
-int sumOdds(int array[], int start, int end){
-
-	int sum = 0;
-	for (int i = start; i <= end; i++) {
-        if (array[i] % 2 != 0) {  
-            sum += array[i];  
-        }
+void printArray(int array[], int size) {
+	for (int i = 0; i < size; i++) {
+        cout << array[i] << " ";  // Print the current element followed by a space
     }
-    return sum;
+    cout << endl;  
 }
 
 
