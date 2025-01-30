@@ -34,8 +34,8 @@ int locateSmallest(int array[], int start, int end){
 // function: Search in the array from given start to end index and replace the given target value with 1000
 void replaceVariable(int array[], int target, int start, int end{
       for (int i = start; i <= end; i++) {
-         if (array[i] == target) {
-             array[i] = 1000;
+        if (array[i] == target) {
+            array[i] = 1000;
         }
     }
 }
@@ -49,7 +49,7 @@ void printArray(int array[], int size) {
      for (int i = 0; i < size; i++) {
         cout << array[i] << " ";  // Print the current element followed by a space
     }
-    cout << endl;
+    cout << endl; 
  }
 
 
@@ -65,7 +65,6 @@ void printArray(int array[], int size) {
 // function: Sum the odd numbers in the given interval 
 //Hint: % is used for modulo operation. 
 //     n%m gives you the remainder after dividing n to m. for example 7%3 = 1 because 7 = 3*2 + 1, then 1 is the remainder.
-
 
 int sumOdds(int array[], int start, int end){
     int sum = 0;
